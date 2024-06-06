@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, #1c005d, #00eeff);
+    background-color: rgba(235, 235, 235, 0.373);
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-shadow: 1px 1px #000;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    grid-column: 1 / -1; 
+    align-items: center;
+}
+
+.card-header {
+    font-family: 'Segoe UI';
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: block;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+@media (max-width: 100%) {
+.container {
+    grid-template-columns: 1fr;
+    }
+}
+

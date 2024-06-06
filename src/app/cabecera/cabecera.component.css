@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+nav {
+    background: linear-gradient(to top, blue, skyblue); /* degradado azul a celeste */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff; /* letra blanca */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* letra blanca */
+}
+
+nav a:hover {
+    color: wheat;
+    background-color: #0a003d; /* efecto 3D de selección como un cuadradito */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.navbar {
+    background: linear-gradient(to top, #4567b7, #6495ed); /* degradado azul a celeste */
+    padding: 10px;
+    font-family: 'Courier New Bold', Courier;
+    font-size: 16px;
+}

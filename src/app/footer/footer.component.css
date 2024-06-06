@@ -1,0 +1,19 @@
+.footer {
+    background-image: linear-gradient(to bottom right, #1c005d, #00eeff);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.list-inline-item {
+    margin: 0 30px; 
+}
